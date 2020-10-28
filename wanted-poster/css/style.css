@@ -56,7 +56,7 @@ main {
 
 h1 {
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: rem;
     margin: 0;
     letter-spacing: .5rem;
     color:darkred;
@@ -81,7 +81,7 @@ h3{
     font-size:2rem;
     margin: 0;
     letter-spacing: .5rem;
-    color:darkred;
+    color:black;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     font-weight: normal;
