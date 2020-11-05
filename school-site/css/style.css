@@ -98,54 +98,120 @@ header, footer {
 
 html {}
 
-h1 {}
+h1 {
+    letter-spacing: .125rem;
+    font-family: josefinslab, Helvetica, sans-serif;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center
+    
+}
 
-h2 {}
+h2 {
+    letter-spacing: .125rem;
+    font-family: josefinslab, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    
+}
 
-h2 {} + p {}
+h2 {text-indent: 1.5rem;} + p {text-indent: 1.5rem;}
 
-p {}
+p {
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+    
+}
 
-li {}
+li {
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+}
 
-figcaption {}
+figcaption {
+    font-size: .75rem;
+    margin-bottom: 2rem;
+}
 
 
 /* Link Styling */
 
-a {}
+a {outline: none;}
 
 a:link,
-a:visited {}
+a:visited {
+    color: #33658A
+}
 
 a:focus,
-a:hover {}
+a:hover {
+    text-decoration: none;
+}
 
 
 /* List Styling */
 
-ul {}
+ul {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: square;
+}
 
-ol{}
+ol{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: lower-alpha;
+}
 
-.long-list a:hover {}
+.long-list a:hover {
+    list-style-type: upper-alpha;
+}
 
 
 /* Navigation Menu */
 
-nav {}
+nav {
+    padding-left: 0;
+    margin-top: .25rem;
+    
+}
 
-nav a {}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: .0625rem;
+    border: solid;
+    border-width: .0625rem;
+    border-color: #33658A
+    
+}
 
 a:focus,
-a:hover {}
+a:hover {
+    color: #FFF;
+    background-color: #33658A;
+}
 
-nav a:active {}
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
 
 
 /* Footer Styles */
 
-footer {}
+footer {
+    text-align: center;
+}
 
 
 
