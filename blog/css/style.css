@@ -122,6 +122,12 @@ section, aside, nav, footer {
   padding: .5rem;
 }
 
+span{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 /* header and footer */
 
 header, footer {
