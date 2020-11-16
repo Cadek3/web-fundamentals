@@ -47,5 +47,113 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+/* General setup */
+
+.highlight {
+    
+    background-color: maroon;
+    width:12.5prem;
+    height:6.25rem;
+    box-shadow:0.625rem 0.625rem 0.625rem grey;
+    text-decoration-color: beige;
+    border-radius: 1.875rem 0.625rem; 
+    
+    
+}
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* Layout */
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+.main-section{
+    
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: .125rem solid #33658A;
+  border-bottom: .125rem solid #33658A;
+}
+
+/* Imported Typfaces */
+/* Charcoal */
+@font-face {
+    font-family: ultraregular;
+    src: url(../fonts/serif/ultra-regular.tff)
+    format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+/* Tofu Unicorns */
+@font-face {
+    font-family: latoregular;
+    src: url(../fonts/sans-serif/lato-regular.tff)
+    format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+/* nav bar text, headers, title */
+@font-face {
+    font-family: montserratregular;
+    src: url(../fonts/sans-serif/montserrat-regular.tff)
+    format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
 
 
