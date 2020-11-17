@@ -138,6 +138,10 @@ figcaption {
     background-color: beige;
     margin:.375rem 0;
 }
+time{
+    font-style: italic;
+    text-align: left;
+}
 
 footer {
     clear: both;
