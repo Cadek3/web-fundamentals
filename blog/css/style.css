@@ -48,6 +48,30 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+/* Imported Typfaces */
+@font-face {
+    font-family: ultraregular;
+    src: url(../fonts/serif/ultra-regular.tff)
+    format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: latoregular;
+    src: url(../fonts/sans-serif/lato-regular.tff)
+    format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: montserratregular;
+    src: url(../fonts/sans-serif/montserrat-regular.tff)
+    format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 /* General setup */
 
 html {
@@ -63,6 +87,7 @@ p{
     
 }
 
+/* Layout */
 header{
     
     font-family: "latoregular", serif;
@@ -72,6 +97,21 @@ header{
     text-align: center;
     transform: rotate(-5deg);
     padding: 1rem;
+}
+h3{
+    font-family: "montserratregular", serif;
+    margin: .5rem;
+    margin-bottom: 0;
+    padding: .5rem;
+    text-align: left;
+}
+a{
+    outline: none;
+    text-decoration-line: none;
+}
+
+a:link{
+    color: #33659A;
 }
 
 .highlight {
@@ -86,31 +126,8 @@ header{
     color: beige;  
 }
 
-
-/* Layout */
-
 .main-section {
     display: flex;
-}
-
-nav {
-    
-    font-family: "montserratregular", serif;
-    border-top: 0.125rem solid gray;
-    border-bottom: 0.125rem solid gray;
-    word-spacing: 8rem;
-    text-align: center;
-    color: black;
-    width: 100%;
-   
-}
-
-li{
-    display: inline;
-}
-
-li:nth-child(2){
-    text-decoration-line: line-through;
 }
 
 article{
@@ -123,6 +140,7 @@ aside{
 	padding-left: 2rem;
 	padding-right: 1rem;
 }
+
 .side-image{
     max-width: 100%;
 	max-height:100%;
@@ -148,59 +166,6 @@ time{
 footer {
     clear: both;
     margin-top:1.5rem;
-}
-
-
-/* Imported Typfaces */
-/* Charcoal */
-@font-face {
-    font-family: ultraregular;
-    src: url(../fonts/serif/ultra-regular.tff)
-    format('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
-/* Tofu Unicorns */
-@font-face {
-    font-family: latoregular;
-    src: url(../fonts/sans-serif/lato-regular.tff)
-    format('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
-/* nav bar text, headers, title */
-@font-face {
-    font-family: montserratregular;
-    src: url(../fonts/sans-serif/montserrat-regular.tff)
-    format('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
-
-/* Navigation Menu */
-h3{
-    font-family: "montserratregular", serif;
-    margin: .5rem;
-    margin-bottom: 0;
-    padding: .5rem;
-    text-align: left;
-}
-a{
-    outline: none;
-    text-decoration-line: none;
-}
-
-a:link{
-    color: #33659A;
-}
-
-nav a:active{
-    transform: rotate(5deg);
-}
-
-a:hover{
-    text-decoration-line: none;
-    color: plum;
 }
 .expand{
     text-decoration: none;
@@ -242,6 +207,37 @@ button{
     margin-top: 3rem;
     box-shadow:0.625rem 0.625rem 0.625rem grey;
 }
+
+/* Navigation Menu */
+nav {
+    
+    font-family: "montserratregular", serif;
+    border-top: 0.125rem solid gray;
+    border-bottom: 0.125rem solid gray;
+    word-spacing: 8rem;
+    text-align: center;
+    color: black;
+    width: 100%;
+   
+}
+
+li{
+    display: inline;
+}
+
+li:nth-child(2){
+    text-decoration-line: line-through;
+}
+
+nav a:active{
+    transform: rotate(5deg);
+}
+
+a:hover{
+    text-decoration-line: none;
+    color: plum;
+}
+
 
 
 
