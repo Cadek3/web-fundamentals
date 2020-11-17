@@ -47,7 +47,17 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+
 /* General setup */
+header{
+    
+    letter-spacing: .125rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    transform: rotate(-5deg);
+    padding: 1rem;
+}
 
 .highlight {
      
@@ -66,11 +76,6 @@ html {
     font-size:16px;   
 }
 
-body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
-}
 
 /* Layout */
 
@@ -80,29 +85,8 @@ main {
     
 }
 
-section, .main-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
-}
-
-.sub-section{
-    
-}
-
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
-}
-
-figure img {
-    width:100%;
-    max-width:25rem;
-}
-
-figcaption {
-    margin:.375rem 0;
+.main-section {
+    display: flex;
 }
 
 nav {
@@ -123,33 +107,29 @@ li:nth-child(2){
     text-decoration-line: line-through;
 }
 
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
 footer {
     clear: both;
     margin-top:1.5rem;
 }
 
-section, aside, nav, footer {
-  padding: .5rem;
-}
 
-span{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-/* header and footer */
 
-header{
-    
-    
-    letter-spacing: .125rem;
-    font-size: 1.5rem;
-    margin: 1rem;
-    text-align: center;
-    transform: rotate(-5deg);
-    padding: 1rem;
-}
 
 /* Imported Typfaces */
 /* Charcoal */
@@ -178,10 +158,10 @@ header{
 }
 
 /* Navigation Menu */
-nav {
-    padding-top: 2rem;
-    margin-top: .25rem;
-    
+h3{
+    margin: .5rem;
+    margin-bottom: 0;
+    padding: .5rem;
 }
 a{
     outline: none;
