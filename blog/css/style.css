@@ -51,7 +51,7 @@
 /* Imported Typfaces */
 @font-face {
     font-family: ultraregular;
-    src: url(../fonts/serif/ultra-regular.tff)
+    src: url(../fonts/ultra-regular.tff)
     format('truetype');
     font-weight:normal;
     font-style:normal;
@@ -59,7 +59,7 @@
 
 @font-face {
     font-family: latoregular;
-    src: url(../fonts/sans-serif/lato-regular.tff)
+    src: url(../fonts/lato-regular.tff)
     format('truetype');
     font-weight:normal;
     font-style:normal;
@@ -67,7 +67,7 @@
 
 @font-face {
     font-family: montserratregular;
-    src: url(../fonts/sans-serif/montserrat-regular.tff)
+    src: url(../fonts/montserrat-regular.tff)
     format('truetype');
     font-weight:normal;
     font-style:normal;
