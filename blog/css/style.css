@@ -109,10 +109,12 @@ figcaption {
 }
 
 nav {
-    border-top: .125rem solid #000000;
-    border-bottom: .125rem solid #000000;
-    float: center;
-    width:11.25rem;
+    border-top: 0.0625rem solid gray;
+    border-bottom: 0.0625rem solid gray;
+    word-spacing: 8rem;
+    text-align: center;
+    color: black;
+    width: 100%;
 }
 
 footer {
