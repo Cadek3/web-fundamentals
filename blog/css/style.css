@@ -104,17 +104,14 @@ figcaption {
     margin:.375rem 0;
 }
 
-.long-list {
-    margin-top:0;
-}
-
 nav {
-    border-top: 0.0625rem solid gray;
-    border-bottom: 0.0625rem solid gray;
+    border-top: 0.125rem solid gray;
+    border-bottom: 0.125rem solid gray;
     word-spacing: 8rem;
     text-align: center;
     color: black;
     width: 100%;
+    text-decoration: none;
 }
 
 footer {
@@ -137,7 +134,7 @@ span{
 header{
   
     letter-spacing: .125rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem;
     text-align: center;
     transform: rotate(5deg);
