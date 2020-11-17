@@ -50,7 +50,7 @@
 
 /* Imported Typfaces */
 @font-face {
-    font-family: ultraregular;
+    font-family: Ultra;
     src: url(../fonts/ultra-regular.tff)
     format('truetype');
     font-weight:normal;
@@ -58,7 +58,7 @@
 }
 
 @font-face {
-    font-family: latoregular;
+    font-family: Lato;
     src: url(../fonts/lato-regular.tff)
     format('truetype');
     font-weight:normal;
@@ -66,7 +66,7 @@
 }
 
 @font-face {
-    font-family: montserratregular;
+    font-family: Montserrat;
     src: url(../fonts/montserrat-regular.tff)
     format('truetype');
     font-weight:normal;
@@ -90,7 +90,7 @@ p{
 /* Layout */
 header{
     
-    font-family: "latoregular", serif;
+    font-family: "Lato", serif;
     letter-spacing: .125rem;
     font-size: 1.5rem;
     margin: 1rem;
@@ -99,7 +99,7 @@ header{
     padding: 1rem;
 }
 h3{
-    font-family: "montserratregular", serif;
+    font-family: "Montserrat", serif;
     margin: .5rem;
     margin-bottom: 0;
     padding: .5rem;
@@ -118,7 +118,7 @@ a:link{
 .highlight {
      
     text-transform: uppercase;
-    font-family: "ultraregular", serif;
+    font-family: "Ultra", serif;
     background-color: maroon;
     padding: 1rem;
     box-shadow:0.625rem 0.625rem 0.625rem grey;
@@ -212,7 +212,7 @@ button{
 /* Navigation Menu */
 nav {
     
-    font-family: "montserratregular", serif;
+    font-family: "Montserrat", serif;
     border-top: 0.125rem solid gray;
     border-bottom: 0.125rem solid gray;
     word-spacing: 8rem;
