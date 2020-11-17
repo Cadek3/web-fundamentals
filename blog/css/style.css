@@ -117,6 +117,9 @@ article{
 
 aside{
     width:30%;
+    border-left: .125rem solid black;
+	padding-left: 2rem;
+	padding-right: 1rem;
 }
 .side-image{
     max-width: 100%;
