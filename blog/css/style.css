@@ -51,18 +51,18 @@
 
 .highlight {
     
+    padding-bottom: 
     background-color: maroon;
     width:12.5prem;
     height:6.25rem;
     box-shadow:0.625rem 0.625rem 0.625rem grey;
-    text-decoration-color: beige;
-    border-radius: 1.875rem 0.625rem; 
-    
-    
+    border-radius: 1.875rem 0.625rem;
+    border-color: black;
+    color: beige;  
 }
 
 html {
-    font-size: 1rem;
+    font-size:16px;   
 }
 
 body {
@@ -79,13 +79,13 @@ main {
     
 }
 
-section {
+section, .main-section {
     float: left;
     min-width: 22.5rem;
     width:50%;
 }
 
-.main-section{
+.sub-section{
     
 }
 
@@ -109,7 +109,9 @@ figcaption {
 }
 
 nav {
-    float: left;
+    border-top: .125rem solid #000000;
+    border-bottom: .125rem solid #000000;
+    float: center;
     width:11.25rem;
 }
 
@@ -123,16 +125,15 @@ section, aside, nav, footer {
 }
 
 span{
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 /* header and footer */
 
-header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
+header{
+  
 }
 
 /* Imported Typfaces */
@@ -161,5 +162,11 @@ header, footer {
     font-style:normal;
 }
 
+/* Navigation Menu */
+nav {
+    padding-top: 2rem;
+    margin-top: .25rem;
+    
+}
 
 
