@@ -50,7 +50,8 @@
 /* General setup */
 
 .highlight {
-    
+     
+    text-transform: uppercase;
     font-family: "ultraregular", serif;
     background-color: maroon;
     width:12.5prem;
@@ -105,6 +106,7 @@ figcaption {
 }
 
 nav {
+     
     border-top: 0.125rem solid gray;
     border-bottom: 0.125rem solid gray;
     word-spacing: 8rem;
@@ -112,6 +114,13 @@ nav {
     color: black;
     width: 100%;
     text-decoration: none;
+}
+li{
+    display: inline;
+}
+
+li:nth-child(2){
+    text-decoration-line: line-through;
 }
 
 footer {
@@ -132,12 +141,13 @@ span{
 /* header and footer */
 
 header{
-  
+    
+    
     letter-spacing: .125rem;
     font-size: 1.5rem;
     margin: 1rem;
     text-align: center;
-    transform: rotate(-5deg);
+    transform: rotate(- 5deg);
     padding: 1rem;
 }
 
