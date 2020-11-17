@@ -226,7 +226,7 @@ li{
 }
 
 li:nth-child(2){
-    transform: rotate(-5deg);
+    transform: rotate(5deg);
     
 }
 
