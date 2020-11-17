@@ -111,6 +111,7 @@ a{
 }
 
 a:link{
+    text-align: right;
     color: #33659A;
 }
 
@@ -164,6 +165,7 @@ time{
 }
 
 footer {
+    text-align: right;
     clear: both;
     margin-top:1.5rem;
 }
@@ -173,7 +175,7 @@ footer {
     font-size: .25rem;
 	padding: 1rem;
 	border-bottom: 0.125rem solid black;
-    border-bottom-width: inherit;
+    border-bottom-width: 100%;
 }
 
 .sub-section{
