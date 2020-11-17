@@ -192,6 +192,10 @@ a:hover{
     grid-template-columns:repeat(3, auto);
     clear:both;
     margin: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .sub-section img{
