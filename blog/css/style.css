@@ -226,7 +226,8 @@ li{
 }
 
 li:nth-child(2){
-    text-decoration-line: line-through;
+    transform: rotate(-5deg);
+    
 }
 
 nav a:active{
