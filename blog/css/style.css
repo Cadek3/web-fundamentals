@@ -118,7 +118,7 @@ article{
 } 
 
 aside{
-    width:30%;
+    width:10%;
     border-left: 0.125rem solid black;
 	padding-left: 2rem;
 	padding-right: 1rem;
@@ -230,9 +230,9 @@ footer a{
 
 button{
     
-    background-color: navy;
-    border-color:navy;
-    color: white;
+    background-color: blue;
+    border-color: blue;
+    color: beige;
     font-family: "ultraregular", serif;
     font-size: 2rem;
     border-radius: 1rem;
