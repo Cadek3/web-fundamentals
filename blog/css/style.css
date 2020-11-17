@@ -49,6 +49,20 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 /* General setup */
+
+html {
+    font-size:16px;   
+}
+
+p{
+    letter-spacing: .125rem;
+    word-spacing: .0025rem;
+    font-size: .75rem;
+    padding: .5rem;
+    margin: .25rem;
+    
+}
+
 header{
     
     letter-spacing: .125rem;
@@ -71,18 +85,8 @@ header{
     color: beige;  
 }
 
-html {
-    font-size:16px;   
-}
-
 
 /* Layout */
-
-main {
-    overflow:auto;
-    min-width:45rem;
-    
-}
 
 .main-section {
     display: flex;
@@ -98,6 +102,7 @@ nav {
     width: 100%;
    
 }
+
 li{
     display: inline;
 }
@@ -106,23 +111,21 @@ li:nth-child(2){
     text-decoration-line: line-through;
 }
 
+article{
+    width:70%;
+} 
 
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
+aside{
+    width:30%;
 }
 
-figure img {
-    width:100%;
-    max-width:25rem;
-}
 .article-image{
     float:left;
     margin: auto;
     padding-right: 23rem;
-    width:  100%;
+    width: 3rem;
 }
+
 figcaption {
     margin:.375rem 0;
 }
