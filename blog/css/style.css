@@ -113,7 +113,7 @@ nav {
     text-align: center;
     color: black;
     width: 100%;
-    text-decoration: none;
+   
 }
 li{
     display: inline;
@@ -147,7 +147,7 @@ header{
     font-size: 1.5rem;
     margin: 1rem;
     text-align: center;
-    transform: rotate(- 5deg);
+    transform: rotate(-5deg);
     padding: 1rem;
 }
 
@@ -182,6 +182,23 @@ nav {
     padding-top: 2rem;
     margin-top: .25rem;
     
+}
+a{
+    outline: none;
+    text-decoration-line: none;
+}
+
+a:link{
+    color: #33659A;
+}
+
+nav a:active{
+    transform: rotate(5deg);
+}
+
+a:hover{
+    text-decoration-line: none;
+    color: plum;
 }
 
 
